@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #222;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(180deg, rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url("../img/bg.jpg") no-repeat, center center;
+  background-size: cover; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 10%;
+  display: inline-block;
+  padding: 0 1.5rem; }
+  h1 .logo {
+    color: #3bffa5;
+    padding: 0.3rem 1.5rem;
+    border-radius: 2.5rem;
+    border: 5px solid #3bffa5;
+    display: block; }
+
+.container {
+  margin: auto;
+  padding: 0 1rem;
+  text-align: center; }
+
+.key-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .key-wrap .key {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 6rem;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    transition: all 0.07s; }
+    .key-wrap .key kbd {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1; }
+    .key-wrap .key .sound {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: #3bffa5; }
+    .key-wrap .key.playing {
+      transform: scale(1.2);
+      border-color: #3bffa5;
+      box-shadow: 0 0 10px #3bffa5; }
+
+footer {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; }
+  footer p {
+    width: 100%; }
+  footer a {
+    color: #3bffa5;
+    font-size: 1.1rem;
+    border-bottom: 1px dashed #3bffa5;
+    padding: 0.1rem 0;
+    transition: border 0.3s ease; }
+    footer a:hover {
+      border: none; }
+
+/*# sourceMappingURL=app.css.map */
